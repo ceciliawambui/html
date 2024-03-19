@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Page</title>
+    </head>
+    <body>
+        <div>
+
+            <div>
+                <h1>Web Page Sample</h1>
+                <!-- Headings -->
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+                <h5>Heading 5</h5>
+                <h6>Heading 6</h6>
+
+
+                <p>A sample web page <sub>5</sub></p>
+                <!-- Adding text to your web page -->
+                <p>Welcome to <em>my</em> brand new website. This site will be
+                    my <strong>new<strong> home on the web.</p>
+
+
+                        <!-- anchor link to a different web page -->
+                        <a href="https://zinduaschool.com/">Zindua School</a>
+                        <br>
+                        <!-- linking another page -->
+
+                        <a href="about.html">About Page</a>
+                        <br>
+
+
+
+                        <!-- adding images -->
+                        <img src="zindua.png" alt="Zindua School Logo" height="80px" width="80px">
+
+                    </div>
+                    <div>
+                        <!-- Ordered List -->
+                        <h3><u>Fruits</u></h3>
+                        <ol>
+                            <li>Bananas</li>
+                            <li>Apples</li>
+                            <li>Paw Paws</li>
+                            <li>Oranges</li>
+                            <li>Water Melons </li>
+
+                        </ol>
+
+                        <!--  unordered list -->
+                        <h4><u>Car Brands</u> </h4>
+                        <ul>
+                            <li>Mazda</li>
+                            <li>Lexus</li>
+                            <li>Subaru</li>
+                            <li>Porsche</li>
+                            <li>Audi</li>
+
+                        </ul>
+                        <!-- Definition list -->
+                        <dl>
+                            <dt>Zindua School</dt>
+                            <dd>Zindua School is a training provider based in
+                                Kenya offering 25-week, part-time, online
+                                bootcamps in Data Science and Software
+                                Development.</dd>
+                        </dl>
+                        <h4>List of Countries</h4>
+                        <ol type="a">
+                            <li>Algeria</li>
+                            <li>Benin</li>
+                            <li>Ethiopia</li>
+                            <li>Kenya</li>
+                            <li>Tanzania</li>
+                        </ol>
+
+
+                    </div>
+                    <h4><u>Combined Lists</u> </h4>
+                    <dl>
+                        <dt>Definition</dt>
+                        <dd>This is a combination of different lists.</dd>
+                    </dl>
+                    <ol>
+                        <li>Groceries</li>
+                        <ul>
+                            <li>Tomatoes</li>
+                            <li>Cabbages</li>
+                            <li>Spinach</li>
+                            <li>Broccoli</li>
+                            <li>Cucumber</li>
+                        </ul>
+                        <li>Hardware</li>
+                        <ul>
+                            <li>Nails</li>
+                            <li>Hammer</li>
+                            <li>Iron Steel</li>
+                            <li>Metals</li>
+                            <li>Cement</li>
+                        </ul>
+                        <li>Electronics</li>
+                        <ul>
+                            <li>Radio</li>
+                            <li>Television</li>
+                            <li>Headphones</li>
+                            <li>Phones</li>
+                            <li>Chargers</li>
+                        </ul>
+                    </ol>
+                    <!-- simple table -->
+                    <div>
+                        <table border="1">
+                            <caption>Personal Details</caption>
+                            <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Email</th>
+                            </tr>
+                            <tr>
+                                <td>Mary</td>
+                                <td>19 years</td>
+                                <td>mary@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Mercy</td>
+                                <td>23 years</td>
+                                <td>mercy@gmail.com</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <br>
+                    <!-- Complex table -->
+                    <table border="1">
+                        <caption>Personal Details</caption>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mary</td>
+                                <td>19 years</td>
+                                <td>Texas</td>
+                            </tr>
+                            <tr>
+                                <td>Mercy</td>
+                                <td rowspan="2">20 years</td>
+                                <td>Canada</td>
+                            </tr>
+                            <tr>
+                                <td>Mark</td>
+                                <!-- <td>21</td> -->
+                                <td>Sydney</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">This is the footer</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <div>
+                        <h2>Registration form</h2>
+                        <form>
+                            <fieldset>
+                                <legend>User personal information</legend>
+                                <label>Enter your full name</label><br>
+                                <input type="text" name="name"><br>
+                                <label>Enter your email</label><br>
+                                <input type="email" name="email"><br>
+                                <label>Enter your password</label><br>
+                                <input type="password" name="pass"><br>
+                                <label>confirm your password</label><br>
+                                <input type="password" name="pass"><br>
+                                <br><label>Enter your gender</label><br>
+                                <input type="radio" id="gender" name="gender"
+                                    value="male"/>Male <br>
+                                <input type="radio" id="gender" name="gender"
+                                    value="female"/>Female <br/>
+                                    <input type="radio" id="gender"
+                                        name="gender" value="others"/>others
+                                    <br/>
+                                        <br>Enter your Address:<br>
+                                        <textarea></textarea><br>
+                                        <button type="submit" >Sign Up</button>
+                                    </fieldset>
+                                </form>
+                            </div>
+
+
+                            <div>
+
+                            </div>
+
+                        </div>
+
+
+                    </body>
+                </html>
