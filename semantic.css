@@ -1,23 +1,23 @@
 aside {
-    width: 40%;
-    padding-left: 0.5rem;
-    margin-left: 0.5rem;
-    float: right;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #29627e;
-  }
-  
-  aside > p {
-    margin: 0.5rem;
-  }
-  footer{
-    position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: crimson;
-   color: white;
-   text-align: center;
-  }
-  
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
+  color: #29627e;
+}
+
+aside>p {
+  margin: 0.5rem;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: crimson;
+  color: white;
+  text-align: center;
+}
